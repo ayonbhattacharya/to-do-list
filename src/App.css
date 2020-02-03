@@ -2,37 +2,59 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.CreateTask{
+  width: 90%;
+  border: 2px solid #d80b6b;
+  box-shadow: 0 2px 3px #031e53;
+  padding: 8px;
+  text-align: center;
+  margin: auto;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.TaskDescInput{
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.SaveTaskButton{
+  color: aliceblue;
+  width: 10%;
+  background-color:rgb(31, 52, 148);
+  font:inherit;
+  border:2px solid rgb(47, 21, 163);
+  padding:8px;
+  margin: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.DisplayTask{
+  width: 90%;
+  border: 2px solid #070e52;
+  box-shadow: 0 2px 3px #375592;
+  padding: 8px;
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.TaskButton{
+  color: aliceblue;
+  width: 10%;
+  background-color:rgb(133, 32, 25);
+  font:inherit;
+  border:2px solid rgb(17, 5, 44);
+  padding:8px;
+  margin: 10px;
+}
+
+.TaskDisplayText{
+  color: rgb(6, 8, 102);
+  width: 80%;
+  font:inherit;
+  padding:8px;
+  margin: 10px;
 }
